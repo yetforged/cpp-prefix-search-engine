@@ -1,0 +1,6 @@
+algorithm 100
+alpha 50
+apple 150
+apply 80
+ball 200
+bat 120 

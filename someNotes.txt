@@ -1,0 +1,9 @@
+The core data structure to use here is Trie.
+aka Prefix Tree
+Each node in trie represents a character of word.
+WHY ? -> it allows to find all words starting with specific prefix in o(L)time.
+where L is length of prefix, each node stores frequency to help rank.
+
+in search engine we want most popular words
+so we do frequency based ranking
+instead of storing characters, each node in trie can maintain list of top K most freq items that pass through that node

@@ -1,0 +1,9 @@
+# Ignore compiled binaries
+*.o
+*.exe
+main
+build/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
